@@ -2,4 +2,4 @@
   become: false
   tasks:
     - name: CONTROL - verify something
-      shell: "hostname"
+      shell: "echo 'hello world'"
