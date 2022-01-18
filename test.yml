@@ -1,0 +1,5 @@
+- hosts: localhost
+  become: false
+  tasks:
+    - name: CONTROL - verify something
+      shell: "hostname"
